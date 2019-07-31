@@ -5,7 +5,7 @@ export K8S_PATCH=1.13.8
 export DOCKER_VERSION=18.06.2~ce~3-0~ubuntu
 
 export POD_CIDR=192.168.0.0/16
-
+export CGROUP_DRIVER=systemd
 export CNI_MANIFEST=https://docs.projectcalico.org/v3.8/manifests/calico.yaml
 
 
